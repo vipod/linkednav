@@ -7,35 +7,45 @@
   <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" type="text/css"> </head>
 
 <body>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <a class="btn btn-primary" href="#"> <i class="fa fa-align-left" title="Align Left"></i> </a>
+            <a class="btn btn-primary" href="#"> <i class="fa fa-align-center" title="Align Center"></i> </a>
+            <a class="btn btn-primary" href="#"> <i class="fa fa-align-right" title="Align Right"></i> </a>
+            <a class="btn btn-primary" href="#"> <i class="fa fa-align-justify" title="Align Justify"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-md navbar-light bg-faded">
     <div class="container">
       <a class="navbar-brand" href="#">LinkedNav
         <br>
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto text-left w-50">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
-        <a class="btn btn-default navbar-btn">Sign in</a>
-      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
     </div>
   </nav>
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <ul class="nav nav-pills flex-column">
             <li class="nav-item text-uppercase text-left my-1">
               <a href="#" class="nav-link disabled">&nbsp;Apps
@@ -64,7 +74,42 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-8"></div>
+        <div class="col-md-6 offset-md-3">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Page Title</a>
+            </li>
+          </ul>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
